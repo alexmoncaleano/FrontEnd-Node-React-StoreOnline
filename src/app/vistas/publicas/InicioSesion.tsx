@@ -7,11 +7,11 @@ export const InicioSesion = () => {
     <div>
       <main>
         <div className="container">
-          <section className="section register d-flex flex-column align-items-center justify-content-center py-4">
+          <section className="section register d-flex flex-column align-items-center justify-content-center py-1">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-6 col-md-8 d-flex flex-column align-items-center justify-content-center">
-                  <div className="d-flex justify-content-center py-4">
+                  <div className="d-flex justify-content-center py-1">
                     <Link
                       to="/"
                       className="logo d-flex align-items-center w-auto"
@@ -82,7 +82,7 @@ export const InicioSesion = () => {
                           </button>
                         </div>
                         <div className="col-12">
-                          <p className="small mb-0">
+                          <p className="small mb-0 text-center">
                             ¿No tienes cuenta?{" "}
                             <Link to="/register">
                               Clic aquí para crear una

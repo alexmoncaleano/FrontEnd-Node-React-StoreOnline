@@ -35,7 +35,7 @@ export const RuteoCompleto = () => {
     <Routes>
       <Route path="/" element={<LazyPrincipal/>} />
       <Route path="/login" element={<LazyInicioSesion/>} />
-      <Route path="/Registro" element={<LazyRegistroSesion/>} />
+      <Route path="/register" element={<LazyRegistroSesion/>} />
       <Route path="*" element={<LazyNoEncontrado/>} />
     </Routes>
   );

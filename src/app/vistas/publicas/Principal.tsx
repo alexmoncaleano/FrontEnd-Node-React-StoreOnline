@@ -39,22 +39,22 @@ export const Principal = () => {
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
                   <a className="nav-link" aria-current="page" href="/#">
-                    Inicio
+                   
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/#">
-                    Opción 1
+                    
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/#">
-                    Opción 2
+                  
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/#">
-                    Opción 3
+                  
                   </a>
                 </li>
                 <li className="nav-item dropdown">
@@ -65,7 +65,7 @@ export const Principal = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Menú desplegable
+                   
                   </a>
                   <ul className="dropdown-menu">
                     <li>
